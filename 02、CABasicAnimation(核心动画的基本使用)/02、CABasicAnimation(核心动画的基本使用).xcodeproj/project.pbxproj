@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330E16171D701D8800C34A65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E16161D701D8800C34A65 /* main.m */; };
+		330E161A1D701D8800C34A65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E16191D701D8800C34A65 /* AppDelegate.m */; };
+		330E161D1D701D8800C34A65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E161C1D701D8800C34A65 /* ViewController.m */; };
+		330E16201D701D8800C34A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E161E1D701D8800C34A65 /* Main.storyboard */; };
+		330E16221D701D8800C34A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330E16211D701D8800C34A65 /* Assets.xcassets */; };
+		330E16251D701D8800C34A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E16231D701D8800C34A65 /* LaunchScreen.storyboard */; };
+		330E16301D701D8800C34A65 /* _2_CABasicAnimation___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E162F1D701D8800C34A65 /* _2_CABasicAnimation___________Tests.m */; };
+		330E163B1D701D8800C34A65 /* _2_CABasicAnimation___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E163A1D701D8800C34A65 /* _2_CABasicAnimation___________UITests.m */; };
+		330E16491D701EC600C34A65 /* 足球.png in Resources */ = {isa = PBXBuildFile; fileRef = 330E16481D701EC600C34A65 /* 足球.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330E162C1D701D8800C34A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E160A1D701D8800C34A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E16111D701D8800C34A65;
+			remoteInfo = "02、CABasicAnimation(核心动画的基本使用)";
+		};
+		330E16371D701D8800C34A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E160A1D701D8800C34A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E16111D701D8800C34A65;
+			remoteInfo = "02、CABasicAnimation(核心动画的基本使用)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330E16121D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02、CABasicAnimation(核心动画的基本使用).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E16161D701D8800C34A65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330E16181D701D8800C34A65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		330E16191D701D8800C34A65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		330E161B1D701D8800C34A65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		330E161C1D701D8800C34A65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		330E161F1D701D8800C34A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330E16211D701D8800C34A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330E16241D701D8800C34A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		330E16261D701D8800C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E162B1D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02、CABasicAnimation(核心动画的基本使用)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E162F1D701D8800C34A65 /* _2_CABasicAnimation___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_CABasicAnimation___________Tests.m"; sourceTree = "<group>"; };
+		330E16311D701D8800C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E16361D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02、CABasicAnimation(核心动画的基本使用)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E163A1D701D8800C34A65 /* _2_CABasicAnimation___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_CABasicAnimation___________UITests.m"; sourceTree = "<group>"; };
+		330E163C1D701D8800C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E16481D701EC600C34A65 /* 足球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "足球.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330E160F1D701D8800C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16281D701D8800C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16331D701D8800C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330E16091D701D8800C34A65 = {
+			isa = PBXGroup;
+			children = (
+				330E16141D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用) */,
+				330E162E1D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)Tests */,
+				330E16391D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)UITests */,
+				330E16131D701D8800C34A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		330E16131D701D8800C34A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330E16121D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用).app */,
+				330E162B1D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)Tests.xctest */,
+				330E16361D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330E16141D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用) */ = {
+			isa = PBXGroup;
+			children = (
+				330E16181D701D8800C34A65 /* AppDelegate.h */,
+				330E16191D701D8800C34A65 /* AppDelegate.m */,
+				330E161B1D701D8800C34A65 /* ViewController.h */,
+				330E161C1D701D8800C34A65 /* ViewController.m */,
+				330E161E1D701D8800C34A65 /* Main.storyboard */,
+				330E16481D701EC600C34A65 /* 足球.png */,
+				330E16211D701D8800C34A65 /* Assets.xcassets */,
+				330E16231D701D8800C34A65 /* LaunchScreen.storyboard */,
+				330E16261D701D8800C34A65 /* Info.plist */,
+				330E16151D701D8800C34A65 /* Supporting Files */,
+			);
+			path = "02、CABasicAnimation(核心动画的基本使用)";
+			sourceTree = "<group>";
+		};
+		330E16151D701D8800C34A65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				330E16161D701D8800C34A65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		330E162E1D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				330E162F1D701D8800C34A65 /* _2_CABasicAnimation___________Tests.m */,
+				330E16311D701D8800C34A65 /* Info.plist */,
+			);
+			path = "02、CABasicAnimation(核心动画的基本使用)Tests";
+			sourceTree = "<group>";
+		};
+		330E16391D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				330E163A1D701D8800C34A65 /* _2_CABasicAnimation___________UITests.m */,
+				330E163C1D701D8800C34A65 /* Info.plist */,
+			);
+			path = "02、CABasicAnimation(核心动画的基本使用)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330E16111D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E163F1D701D8800C34A65 /* Build configuration list for PBXNativeTarget "02、CABasicAnimation(核心动画的基本使用)" */;
+			buildPhases = (
+				330E160E1D701D8800C34A65 /* Sources */,
+				330E160F1D701D8800C34A65 /* Frameworks */,
+				330E16101D701D8800C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02、CABasicAnimation(核心动画的基本使用)";
+			productName = "02、CABasicAnimation(核心动画的基本使用)";
+			productReference = 330E16121D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用).app */;
+			productType = "com.apple.product-type.application";
+		};
+		330E162A1D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E16421D701D8800C34A65 /* Build configuration list for PBXNativeTarget "02、CABasicAnimation(核心动画的基本使用)Tests" */;
+			buildPhases = (
+				330E16271D701D8800C34A65 /* Sources */,
+				330E16281D701D8800C34A65 /* Frameworks */,
+				330E16291D701D8800C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E162D1D701D8800C34A65 /* PBXTargetDependency */,
+			);
+			name = "02、CABasicAnimation(核心动画的基本使用)Tests";
+			productName = "02、CABasicAnimation(核心动画的基本使用)Tests";
+			productReference = 330E162B1D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330E16351D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E16451D701D8800C34A65 /* Build configuration list for PBXNativeTarget "02、CABasicAnimation(核心动画的基本使用)UITests" */;
+			buildPhases = (
+				330E16321D701D8800C34A65 /* Sources */,
+				330E16331D701D8800C34A65 /* Frameworks */,
+				330E16341D701D8800C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E16381D701D8800C34A65 /* PBXTargetDependency */,
+			);
+			name = "02、CABasicAnimation(核心动画的基本使用)UITests";
+			productName = "02、CABasicAnimation(核心动画的基本使用)UITests";
+			productReference = 330E16361D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330E160A1D701D8800C34A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tens;
+				TargetAttributes = {
+					330E16111D701D8800C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					330E162A1D701D8800C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 330E16111D701D8800C34A65;
+					};
+					330E16351D701D8800C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 330E16111D701D8800C34A65;
+					};
+				};
+			};
+			buildConfigurationList = 330E160D1D701D8800C34A65 /* Build configuration list for PBXProject "02、CABasicAnimation(核心动画的基本使用)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330E16091D701D8800C34A65;
+			productRefGroup = 330E16131D701D8800C34A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330E16111D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用) */,
+				330E162A1D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)Tests */,
+				330E16351D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330E16101D701D8800C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E16251D701D8800C34A65 /* LaunchScreen.storyboard in Resources */,
+				330E16221D701D8800C34A65 /* Assets.xcassets in Resources */,
+				330E16201D701D8800C34A65 /* Main.storyboard in Resources */,
+				330E16491D701EC600C34A65 /* 足球.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16291D701D8800C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16341D701D8800C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330E160E1D701D8800C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E161D1D701D8800C34A65 /* ViewController.m in Sources */,
+				330E161A1D701D8800C34A65 /* AppDelegate.m in Sources */,
+				330E16171D701D8800C34A65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16271D701D8800C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E16301D701D8800C34A65 /* _2_CABasicAnimation___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16321D701D8800C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E163B1D701D8800C34A65 /* _2_CABasicAnimation___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330E162D1D701D8800C34A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E16111D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用) */;
+			targetProxy = 330E162C1D701D8800C34A65 /* PBXContainerItemProxy */;
+		};
+		330E16381D701D8800C34A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E16111D701D8800C34A65 /* 02、CABasicAnimation(核心动画的基本使用) */;
+			targetProxy = 330E16371D701D8800C34A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330E161E1D701D8800C34A65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E161F1D701D8800C34A65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		330E16231D701D8800C34A65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E16241D701D8800C34A65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330E163D1D701D8800C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		330E163E1D701D8800C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330E16401D701D8800C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02、CABasicAnimation(核心动画的基本使用)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-2-CABasicAnimation-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		330E16411D701D8800C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02、CABasicAnimation(核心动画的基本使用)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-2-CABasicAnimation-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		330E16431D701D8800C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02、CABasicAnimation(核心动画的基本使用)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-2-CABasicAnimation-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02、CABasicAnimation(核心动画的基本使用).app/02、CABasicAnimation(核心动画的基本使用)";
+			};
+			name = Debug;
+		};
+		330E16441D701D8800C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02、CABasicAnimation(核心动画的基本使用)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-2-CABasicAnimation-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02、CABasicAnimation(核心动画的基本使用).app/02、CABasicAnimation(核心动画的基本使用)";
+			};
+			name = Release;
+		};
+		330E16461D701D8800C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02、CABasicAnimation(核心动画的基本使用)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-2-CABasicAnimation-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02、CABasicAnimation(核心动画的基本使用)";
+			};
+			name = Debug;
+		};
+		330E16471D701D8800C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02、CABasicAnimation(核心动画的基本使用)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-2-CABasicAnimation-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02、CABasicAnimation(核心动画的基本使用)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330E160D1D701D8800C34A65 /* Build configuration list for PBXProject "02、CABasicAnimation(核心动画的基本使用)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E163D1D701D8800C34A65 /* Debug */,
+				330E163E1D701D8800C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E163F1D701D8800C34A65 /* Build configuration list for PBXNativeTarget "02、CABasicAnimation(核心动画的基本使用)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E16401D701D8800C34A65 /* Debug */,
+				330E16411D701D8800C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		330E16421D701D8800C34A65 /* Build configuration list for PBXNativeTarget "02、CABasicAnimation(核心动画的基本使用)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E16431D701D8800C34A65 /* Debug */,
+				330E16441D701D8800C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		330E16451D701D8800C34A65 /* Build configuration list for PBXNativeTarget "02、CABasicAnimation(核心动画的基本使用)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E16461D701D8800C34A65 /* Debug */,
+				330E16471D701D8800C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330E160A1D701D8800C34A65 /* Project object */;
+}
