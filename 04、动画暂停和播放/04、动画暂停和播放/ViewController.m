@@ -9,10 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController () {
-    
-    
     CALayer *layer;
-    
     BOOL _isPause;
 }
 
@@ -29,10 +26,7 @@
     layer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"get.jpeg"].CGImage);
     
     [self.view.layer addSublayer:layer];
-    
     [self rotationAnimation];
-    
-    
 }
 
 //动画的起始位置，
@@ -61,7 +55,7 @@
     // CACurrentMediaTime(): 当前媒体时间，表示系统启动后到当前的秒数，当系统重启后这个时间也重置
     CFTimeInterval pauseTime = [layer convertTime:CACurrentMediaTime() fromLayer:nil];
     /*
-     设置动画的时间的偏移，所谓的时间偏移就是指动画在暂停之后再次启动时也不会再次回到起始位置，而是会从你暂停的位置开始启动 
+     设置动画的时间的偏移，所谓的时间偏移就是指动画在暂停之后再次启动时也不会再次回到起始位置，而是会从你暂停的位置开始启动
      **/
     layer.timeOffset = pauseTime;
     
