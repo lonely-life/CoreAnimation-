@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330E16991D712D2300C34A65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E16981D712D2300C34A65 /* main.m */; };
+		330E169C1D712D2300C34A65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E169B1D712D2300C34A65 /* AppDelegate.m */; };
+		330E169F1D712D2300C34A65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E169E1D712D2300C34A65 /* ViewController.m */; };
+		330E16A21D712D2300C34A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E16A01D712D2300C34A65 /* Main.storyboard */; };
+		330E16A41D712D2300C34A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330E16A31D712D2300C34A65 /* Assets.xcassets */; };
+		330E16A71D712D2300C34A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E16A51D712D2300C34A65 /* LaunchScreen.storyboard */; };
+		330E16B21D712D2300C34A65 /* _4________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E16B11D712D2300C34A65 /* _4________Tests.m */; };
+		330E16BD1D712D2300C34A65 /* _4________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E16BC1D712D2300C34A65 /* _4________UITests.m */; };
+		330E16CB1D712D5800C34A65 /* get.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 330E16CA1D712D5800C34A65 /* get.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330E16AE1D712D2300C34A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E168C1D712D2300C34A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E16931D712D2300C34A65;
+			remoteInfo = "04、动画暂停和播放";
+		};
+		330E16B91D712D2300C34A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E168C1D712D2300C34A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E16931D712D2300C34A65;
+			remoteInfo = "04、动画暂停和播放";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330E16941D712D2300C34A65 /* 04、动画暂停和播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04、动画暂停和播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E16981D712D2300C34A65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330E169A1D712D2300C34A65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		330E169B1D712D2300C34A65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		330E169D1D712D2300C34A65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		330E169E1D712D2300C34A65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		330E16A11D712D2300C34A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330E16A31D712D2300C34A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330E16A61D712D2300C34A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		330E16A81D712D2300C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E16AD1D712D2300C34A65 /* 04、动画暂停和播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04、动画暂停和播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E16B11D712D2300C34A65 /* _4________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4________Tests.m"; sourceTree = "<group>"; };
+		330E16B31D712D2300C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E16B81D712D2300C34A65 /* 04、动画暂停和播放UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04、动画暂停和播放UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E16BC1D712D2300C34A65 /* _4________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4________UITests.m"; sourceTree = "<group>"; };
+		330E16BE1D712D2300C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E16CA1D712D5800C34A65 /* get.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = get.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330E16911D712D2300C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16AA1D712D2300C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16B51D712D2300C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330E168B1D712D2300C34A65 = {
+			isa = PBXGroup;
+			children = (
+				330E16961D712D2300C34A65 /* 04、动画暂停和播放 */,
+				330E16B01D712D2300C34A65 /* 04、动画暂停和播放Tests */,
+				330E16BB1D712D2300C34A65 /* 04、动画暂停和播放UITests */,
+				330E16951D712D2300C34A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		330E16951D712D2300C34A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330E16941D712D2300C34A65 /* 04、动画暂停和播放.app */,
+				330E16AD1D712D2300C34A65 /* 04、动画暂停和播放Tests.xctest */,
+				330E16B81D712D2300C34A65 /* 04、动画暂停和播放UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330E16961D712D2300C34A65 /* 04、动画暂停和播放 */ = {
+			isa = PBXGroup;
+			children = (
+				330E169A1D712D2300C34A65 /* AppDelegate.h */,
+				330E169B1D712D2300C34A65 /* AppDelegate.m */,
+				330E169D1D712D2300C34A65 /* ViewController.h */,
+				330E169E1D712D2300C34A65 /* ViewController.m */,
+				330E16A01D712D2300C34A65 /* Main.storyboard */,
+				330E16CA1D712D5800C34A65 /* get.jpeg */,
+				330E16A31D712D2300C34A65 /* Assets.xcassets */,
+				330E16A51D712D2300C34A65 /* LaunchScreen.storyboard */,
+				330E16A81D712D2300C34A65 /* Info.plist */,
+				330E16971D712D2300C34A65 /* Supporting Files */,
+			);
+			path = "04、动画暂停和播放";
+			sourceTree = "<group>";
+		};
+		330E16971D712D2300C34A65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				330E16981D712D2300C34A65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		330E16B01D712D2300C34A65 /* 04、动画暂停和播放Tests */ = {
+			isa = PBXGroup;
+			children = (
+				330E16B11D712D2300C34A65 /* _4________Tests.m */,
+				330E16B31D712D2300C34A65 /* Info.plist */,
+			);
+			path = "04、动画暂停和播放Tests";
+			sourceTree = "<group>";
+		};
+		330E16BB1D712D2300C34A65 /* 04、动画暂停和播放UITests */ = {
+			isa = PBXGroup;
+			children = (
+				330E16BC1D712D2300C34A65 /* _4________UITests.m */,
+				330E16BE1D712D2300C34A65 /* Info.plist */,
+			);
+			path = "04、动画暂停和播放UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330E16931D712D2300C34A65 /* 04、动画暂停和播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E16C11D712D2300C34A65 /* Build configuration list for PBXNativeTarget "04、动画暂停和播放" */;
+			buildPhases = (
+				330E16901D712D2300C34A65 /* Sources */,
+				330E16911D712D2300C34A65 /* Frameworks */,
+				330E16921D712D2300C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04、动画暂停和播放";
+			productName = "04、动画暂停和播放";
+			productReference = 330E16941D712D2300C34A65 /* 04、动画暂停和播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330E16AC1D712D2300C34A65 /* 04、动画暂停和播放Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E16C41D712D2300C34A65 /* Build configuration list for PBXNativeTarget "04、动画暂停和播放Tests" */;
+			buildPhases = (
+				330E16A91D712D2300C34A65 /* Sources */,
+				330E16AA1D712D2300C34A65 /* Frameworks */,
+				330E16AB1D712D2300C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E16AF1D712D2300C34A65 /* PBXTargetDependency */,
+			);
+			name = "04、动画暂停和播放Tests";
+			productName = "04、动画暂停和播放Tests";
+			productReference = 330E16AD1D712D2300C34A65 /* 04、动画暂停和播放Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330E16B71D712D2300C34A65 /* 04、动画暂停和播放UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E16C71D712D2300C34A65 /* Build configuration list for PBXNativeTarget "04、动画暂停和播放UITests" */;
+			buildPhases = (
+				330E16B41D712D2300C34A65 /* Sources */,
+				330E16B51D712D2300C34A65 /* Frameworks */,
+				330E16B61D712D2300C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E16BA1D712D2300C34A65 /* PBXTargetDependency */,
+			);
+			name = "04、动画暂停和播放UITests";
+			productName = "04、动画暂停和播放UITests";
+			productReference = 330E16B81D712D2300C34A65 /* 04、动画暂停和播放UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330E168C1D712D2300C34A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tens;
+				TargetAttributes = {
+					330E16931D712D2300C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					330E16AC1D712D2300C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 330E16931D712D2300C34A65;
+					};
+					330E16B71D712D2300C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 330E16931D712D2300C34A65;
+					};
+				};
+			};
+			buildConfigurationList = 330E168F1D712D2300C34A65 /* Build configuration list for PBXProject "04、动画暂停和播放" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330E168B1D712D2300C34A65;
+			productRefGroup = 330E16951D712D2300C34A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330E16931D712D2300C34A65 /* 04、动画暂停和播放 */,
+				330E16AC1D712D2300C34A65 /* 04、动画暂停和播放Tests */,
+				330E16B71D712D2300C34A65 /* 04、动画暂停和播放UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330E16921D712D2300C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E16CB1D712D5800C34A65 /* get.jpeg in Resources */,
+				330E16A71D712D2300C34A65 /* LaunchScreen.storyboard in Resources */,
+				330E16A41D712D2300C34A65 /* Assets.xcassets in Resources */,
+				330E16A21D712D2300C34A65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16AB1D712D2300C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16B61D712D2300C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330E16901D712D2300C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E169F1D712D2300C34A65 /* ViewController.m in Sources */,
+				330E169C1D712D2300C34A65 /* AppDelegate.m in Sources */,
+				330E16991D712D2300C34A65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16A91D712D2300C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E16B21D712D2300C34A65 /* _4________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E16B41D712D2300C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E16BD1D712D2300C34A65 /* _4________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330E16AF1D712D2300C34A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E16931D712D2300C34A65 /* 04、动画暂停和播放 */;
+			targetProxy = 330E16AE1D712D2300C34A65 /* PBXContainerItemProxy */;
+		};
+		330E16BA1D712D2300C34A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E16931D712D2300C34A65 /* 04、动画暂停和播放 */;
+			targetProxy = 330E16B91D712D2300C34A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330E16A01D712D2300C34A65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E16A11D712D2300C34A65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		330E16A51D712D2300C34A65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E16A61D712D2300C34A65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330E16BF1D712D2300C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		330E16C01D712D2300C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330E16C21D712D2300C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04、动画暂停和播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-4--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		330E16C31D712D2300C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04、动画暂停和播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-4--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		330E16C51D712D2300C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04、动画暂停和播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-4--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04、动画暂停和播放.app/04、动画暂停和播放";
+			};
+			name = Debug;
+		};
+		330E16C61D712D2300C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04、动画暂停和播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-4--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04、动画暂停和播放.app/04、动画暂停和播放";
+			};
+			name = Release;
+		};
+		330E16C81D712D2300C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04、动画暂停和播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-4--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04、动画暂停和播放";
+			};
+			name = Debug;
+		};
+		330E16C91D712D2300C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04、动画暂停和播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-4--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04、动画暂停和播放";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330E168F1D712D2300C34A65 /* Build configuration list for PBXProject "04、动画暂停和播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E16BF1D712D2300C34A65 /* Debug */,
+				330E16C01D712D2300C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E16C11D712D2300C34A65 /* Build configuration list for PBXNativeTarget "04、动画暂停和播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E16C21D712D2300C34A65 /* Debug */,
+				330E16C31D712D2300C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		330E16C41D712D2300C34A65 /* Build configuration list for PBXNativeTarget "04、动画暂停和播放Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E16C51D712D2300C34A65 /* Debug */,
+				330E16C61D712D2300C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		330E16C71D712D2300C34A65 /* Build configuration list for PBXNativeTarget "04、动画暂停和播放UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E16C81D712D2300C34A65 /* Debug */,
+				330E16C91D712D2300C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330E168C1D712D2300C34A65 /* Project object */;
+}
